@@ -7,7 +7,7 @@ public class Main
 
         String partyAfil = " ";
 
-        System.out.print("Enter your party: ");
+        System.out.print("Enter your party [D, R, I]: ");
         partyAfil = in.nextLine();
 
         if (partyAfil.equalsIgnoreCase("R"))
